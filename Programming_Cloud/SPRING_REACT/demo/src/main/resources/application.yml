@@ -1,0 +1,24 @@
+spring:
+  profiles: dev
+
+my:
+  property: DEV
+
+feedback:
+  service:
+    port: 8801
+    host: 10.143.143.100
+
+---
+
+spring:
+  profiles: prod
+
+my:
+  property: PROD
+
+asdf:
+  asdfasdf: asdg
+
+
+  
