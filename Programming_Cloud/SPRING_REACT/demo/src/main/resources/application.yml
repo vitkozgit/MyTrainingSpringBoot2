@@ -1,6 +1,9 @@
 spring:
   profiles: dev
 
+server:
+  port: 8081
+
 my:
   property: DEV
 

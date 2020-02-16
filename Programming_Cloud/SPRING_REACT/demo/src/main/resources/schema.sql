@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS PRODUCT(
+    id VARCHAR(10),
+    name VARCHAR(50),
+    type VARCHAR(50)
+);
