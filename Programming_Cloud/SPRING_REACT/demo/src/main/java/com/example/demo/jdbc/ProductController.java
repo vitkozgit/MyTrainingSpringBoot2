@@ -1,9 +1,8 @@
 package com.example.demo.jdbc;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
+@RestController
 public class ProductController {
 
 	private ProductRepository productRepository;
