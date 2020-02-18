@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 @Repository
 public class ProductRepositoryImpl implements ProductRepository {
@@ -18,21 +19,27 @@ public class ProductRepositoryImpl implements ProductRepository {
 
 	@Override
 	public Iterable<Product> findAll() {
-		return jdbcTemplate.query("select id, name, type from Product", new ProductRowMapper());
+		return jdbcTemplate.query("select id, name, type from MY_TEST", new ProductRowMapper());
 	}
 
 	@Override
-	public Product findOneById(String id) {
-		return jdbcTemplate.queryForObject("select id, name, type from Product where id=?", new ProductRowMapper(), id);
+	public List<Product> findOneById(String id) {
+		return jdbcTemplate.query("select id, name, type from MY_TEST where id=?", new ProductRowMapper(), id);
 	}
 
 	@Override
 	public Product save(Product product) {
-		jdbcTemplate.update("insert into Product (id,name,type) values (?,?,?)",
+		jdbcTemplate.update("insert into MY_TEST (id,name,type) values (?,?,?)",
 				product.getId(),
 				product.getName(),
 				product.getType());
 		return product;
+	}
+
+	@Override
+	public String delete(String id) {
+		jdbcTemplate.update("delete from MY_TEST where id=?",id);
+		return id;
 	}
 
 	private static class ProductRowMapper implements RowMapper<Product> {
