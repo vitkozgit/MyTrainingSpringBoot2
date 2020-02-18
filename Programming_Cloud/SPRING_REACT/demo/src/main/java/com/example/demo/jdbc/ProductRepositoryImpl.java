@@ -19,17 +19,17 @@ public class ProductRepositoryImpl implements ProductRepository {
 
 	@Override
 	public Iterable<Product> findAll() {
-		return jdbcTemplate.query("select id, name, type from MY_TEST", new ProductRowMapper());
+		return jdbcTemplate.query("select id, name, type from MY_TEST_JPA", new ProductRowMapper());
 	}
 
 	@Override
 	public List<Product> findOneById(String id) {
-		return jdbcTemplate.query("select id, name, type from MY_TEST where id=?", new ProductRowMapper(), id);
+		return jdbcTemplate.query("select id, name, type from MY_TEST_JPA where id=?", new ProductRowMapper(), id);
 	}
 
 	@Override
 	public Product save(Product product) {
-		jdbcTemplate.update("insert into MY_TEST (id,name,type) values (?,?,?)",
+		jdbcTemplate.update("insert into MY_TEST_JPA (id,name,type) values (?,?,?)",
 				product.getId(),
 				product.getName(),
 				product.getType());
@@ -38,7 +38,7 @@ public class ProductRepositoryImpl implements ProductRepository {
 
 	@Override
 	public String delete(String id) {
-		jdbcTemplate.update("delete from MY_TEST where id=?",id);
+		jdbcTemplate.update("delete from MY_TEST_JPA where id=?",id);
 		return id;
 	}
 
