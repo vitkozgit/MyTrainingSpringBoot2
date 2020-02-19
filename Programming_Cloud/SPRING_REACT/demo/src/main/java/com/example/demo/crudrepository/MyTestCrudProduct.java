@@ -1,12 +1,14 @@
 package com.example.demo.crudrepository;
 
+import org.springframework.hateoas.RepresentationModel;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class MyTestCrudProduct {
+public class MyTestCrudProduct extends RepresentationModel {
 
     @Id
     @GeneratedValue
