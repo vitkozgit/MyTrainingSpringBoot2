@@ -7,6 +7,7 @@ import org.springframework.hateoas.server.mvc.ControllerLinkBuilder;
 import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,9 +17,12 @@ public class MyCrudProductController {
 
     private IMyCrudRepository iMyCrudRepository;
 
+    private RestTemplate restTemplate;
+
     @Autowired
-    public MyCrudProductController(IMyCrudRepository iMyCrudRepository) {
+    public MyCrudProductController(IMyCrudRepository iMyCrudRepository, RestTemplate restTemplate) {
         this.iMyCrudRepository = iMyCrudRepository;
+        this.restTemplate = restTemplate;
     }
 
     @GetMapping("/crud/product")
@@ -46,5 +50,10 @@ public class MyCrudProductController {
         CollectionModel<EntityModel<MyTestCrudProduct>> resources = CollectionModel.wrap(value);
         resources.add(WebMvcLinkBuilder.linkTo(MyCrudProductController.class).slash("/crud/products").withRel("products"));
         return resources;
+    }
+
+    @GetMapping("/crud/product/proxy")
+    public CollectionModel<EntityModel<MyTestCrudProduct>> getProductByIdProxy() {
+        return restTemplate.getForObject("http://localhost:8080/crud/products", CollectionModel.class);
     }
 }
