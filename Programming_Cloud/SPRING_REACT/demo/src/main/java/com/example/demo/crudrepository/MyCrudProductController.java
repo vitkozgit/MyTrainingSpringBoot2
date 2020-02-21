@@ -22,9 +22,9 @@ public class MyCrudProductController {
     }
 
     @GetMapping("/crud/product")
-    public ResponseEntity<MyTestCrudProduct> getProductById(@RequestParam("id") String id) {
-        Optional<MyTestCrudProduct> value = iMyCrudRepository.findById(id);
-        return ResponseEntity.ok(value.orElse(new MyTestCrudProduct()));
+    public ResponseEntity<MyTestCrudProduct> getProductById(@RequestParam("id") Long id) {
+        MyTestCrudProduct value = iMyCrudRepository.myCustomById(id);
+        return ResponseEntity.ok(value);
     }
 
     @PutMapping("/crud/product")
@@ -41,6 +41,7 @@ public class MyCrudProductController {
 
     @GetMapping("/crud/products")
     public CollectionModel<EntityModel<MyTestCrudProduct>> getProductById() {
+        System.out.println("PRODUCTS");
         Iterable<MyTestCrudProduct> value = iMyCrudRepository.findAll();
         CollectionModel<EntityModel<MyTestCrudProduct>> resources = CollectionModel.wrap(value);
         resources.add(WebMvcLinkBuilder.linkTo(MyCrudProductController.class).slash("/crud/products").withRel("products"));

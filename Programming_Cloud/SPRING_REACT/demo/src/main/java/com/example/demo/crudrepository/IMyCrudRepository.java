@@ -10,4 +10,7 @@ public interface IMyCrudRepository extends CrudRepository<MyTestCrudProduct, Str
 
     @Query("select p from MyTestCrudProduct p where p.type = ?1")
     List<MyTestCrudProduct> myCustom(String type);
+
+    @Query("select p from MyTestCrudProduct p where p.id = ?1")
+    MyTestCrudProduct myCustomById(Long id);
 }

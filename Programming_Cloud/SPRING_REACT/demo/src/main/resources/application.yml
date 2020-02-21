@@ -43,3 +43,14 @@ asdf:
   asdfasdf: asdg
 
 #spring.datasource.initialization-mode=always
+logging:
+  level:
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+
+management:
+  server:
+    port: 5000
+  endpoints:
+    web:
+      exposure:
+        include: httptrace
