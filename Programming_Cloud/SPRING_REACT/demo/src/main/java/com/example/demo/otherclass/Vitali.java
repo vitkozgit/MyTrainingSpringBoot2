@@ -8,7 +8,7 @@ import javax.annotation.PostConstruct;
 @Component
 public class Vitali {
 
-	@Value("${my.property}")
+
 	private String myProperty;
 
 	public Vitali() {

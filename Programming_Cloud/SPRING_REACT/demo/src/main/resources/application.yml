@@ -31,10 +31,6 @@ spring:
 #    url: jdbc:postgresql://localhost:5432/test
 #    username: postgres
 #    password: 15w04i19t94F!
-    tomcat:
-      max-wait: 10000
-      max-active: 50
-      test-on-borrow: true
 
 my:
   property: PROD

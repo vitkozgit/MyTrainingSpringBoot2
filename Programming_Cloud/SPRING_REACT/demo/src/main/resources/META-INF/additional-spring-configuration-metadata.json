@@ -9,11 +9,6 @@
       "name": "feedback.service.host",
       "type": "java.lang.String",
       "description": "Description for feedback.service.port."
-    },
-    {
-      "name": "my.property",
-      "type": "java.lang.String",
-      "description": "Description for feedback.service.port."
     }
   ]
 }
