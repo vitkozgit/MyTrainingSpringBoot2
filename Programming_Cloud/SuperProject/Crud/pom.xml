@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>SuperProject</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>my.crud</groupId>
+    <artifactId>Crud</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <modules>
+        <module>SpringBootStandardCrud</module>
+    </modules>
+
+    <properties>
+        <project-spring-boot-standard-crud.version>1.0.0</project-spring-boot-standard-crud.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>my.standard.crud</groupId>
+                <artifactId>api-direct</artifactId>
+                <version>${project-spring-boot-standard-crud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>my.standard.crud</groupId>
+                <artifactId>domain</artifactId>
+                <version>${project-spring-boot-standard-crud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>my.standard.crud</groupId>
+                <artifactId>infrastructure</artifactId>
+                <version>${project-spring-boot-standard-crud.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
