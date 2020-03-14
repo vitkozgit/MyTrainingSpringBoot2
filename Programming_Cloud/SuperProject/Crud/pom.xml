@@ -19,6 +19,8 @@
 
     <properties>
         <project-spring-boot-standard-crud.version>1.0.0</project-spring-boot-standard-crud.version>
+        <mysql-connector-java.version>8.0.19</mysql-connector-java.version>
+        <lombok.version>1.18.12</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -37,6 +39,17 @@
                 <groupId>my.standard.crud</groupId>
                 <artifactId>infrastructure</artifactId>
                 <version>${project-spring-boot-standard-crud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql-connector-java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

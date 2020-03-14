@@ -1,17 +1,28 @@
 package my.standard.crud.hello;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+import javax.websocket.server.PathParam;
 
 @RestController
 public class SimpleCrudResource {
 
-    public SimpleCrudResource() {
-        System.out.println();
+    private HelloService helloService;
+
+    public SimpleCrudResource(HelloService helloService) {
+        this.helloService = helloService;
     }
 
-    @GetMapping("/hello")
-    public String hello() {
-        return "Hello!!!";
+    @PostMapping("/hello/create")
+    public ResponseEntity<HelloObject> createHelloObject(@RequestBody HelloObject helloObject) {
+        HelloObject hObject = helloService.createHelloObject(helloObject);
+        return ResponseEntity.ok(hObject);
+    }
+
+    @GetMapping("/hello/retrieve/{id}")
+    public ResponseEntity<HelloObject> retrieveHelloObject(@PathVariable("id") int id) {
+        HelloObject hObject = helloService.retrieveHelloObject(id);
+        return ResponseEntity.ok(hObject);
     }
 }
