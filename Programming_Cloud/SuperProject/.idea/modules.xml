@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Crud/Crud.iml" filepath="$PROJECT_DIR$/Crud/Crud.iml" group="Crud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/Crud/SpringBootStandardCrud/SpringBootStandardCrud.iml" filepath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/SpringBootStandardCrud.iml" group="Crud and modules/SpringBootStandardCrud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SuperProject.iml" filepath="$PROJECT_DIR$/.idea/SuperProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crud/SpringBootStandardCrud/api-direct/api-direct.iml" filepath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/api-direct/api-direct.iml" group="Crud and modules/SpringBootStandardCrud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/application.iml" filepath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/application.iml" group="Crud and modules/SpringBootStandardCrud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/domain.iml" filepath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/domain.iml" group="Crud and modules/SpringBootStandardCrud and modules" />
+      <module fileurl="file://$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/infrastructure.iml" filepath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/infrastructure.iml" group="Crud and modules/SpringBootStandardCrud and modules" />
+    </modules>
+  </component>
+</project>

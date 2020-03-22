@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbac0fef-0ffc-4c94-ae2a-95fb9f892fbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jdbc_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jdbc_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_relational_1_1_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/src/main/java/my/standard/crud/hello/HelloObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/src/main/java/my/standard/crud/hello/HelloRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/src/main/java/my/standard/crud/hello/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/src/main/java/my/standard/crud/hello/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/src/main/java/my/standard/crud/hello/HelloRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_0_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_0_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/api-direct/api-direct.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/api-direct/api-direct.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/api-direct/src/main/java/my/standard/crud/hello/SimpleCrudResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/api-direct/src/main/java/my/standard/crud/hello/SimpleCrudResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/api-direct/target/api-direct-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/api-direct/target/api-direct-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/target/application-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/target/application-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/target/application-1.0.0.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/target/application-1.0.0.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/target/classes/my/standard/crud/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/application/target/classes/my/standard/crud/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/target/domain-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/target/domain-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/infrastructure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/infrastructure.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/target/infrastructure-1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/target/infrastructure-1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/SpringBootStandardCrud/infrastructure/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Crud/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hello" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hello" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hello" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hello: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="hello" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="hello: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="HelloObject: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:vitkozgit/MyTrainingSpringBoot2.git" />
+      </set>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="1YvYPiAuP8aOD1vdxw8fK53SVSB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="my.standard.crud" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootStandardCrud">
+    <configuration name="SpringBootStandardCrud [clean,install]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/Crud/SpringBootStandardCrud" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SuperProject" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringBootStandardCrud" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.standard.crud.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Maven.SuperProject" />
+      <item itemvalue="Maven.SpringBootStandardCrud [clean,install]" />
+      <item itemvalue="Spring Boot.SpringBootStandardCrud" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbac0fef-0ffc-4c94-ae2a-95fb9f892fbf" name="Default Changelist" comment="" />
+      <created>1583824512783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583824512783</updated>
+      <workItem from="1583824515556" duration="1012000" />
+      <workItem from="1583825551793" duration="345000" />
+      <workItem from="1583825928959" duration="44000" />
+      <workItem from="1583826005246" duration="182000" />
+      <workItem from="1583826516584" duration="185000" />
+      <workItem from="1583826710534" duration="46000" />
+      <workItem from="1583826770239" duration="11000" />
+      <workItem from="1583826793160" duration="15000" />
+      <workItem from="1583995975890" duration="668000" />
+      <workItem from="1583996658784" duration="11000" />
+      <workItem from="1583996682893" duration="3110000" />
+      <workItem from="1584043423273" duration="1848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="160" key="#Project_Structure" timestamp="1584040103797">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="440" y="160" key="#Project_Structure/0.23.1680.944@0.23.1680.944" timestamp="1584040103797" />
+    <state x="440" y="162" key="#SQL_Resolution_Scopes" timestamp="1584044023501">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="440" y="162" key="#SQL_Resolution_Scopes/0.23.1680.947@0.23.1680.947" timestamp="1584044023501" />
+    <state x="304" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584042468717">
+      <screen x="0" y="23" width="1680" height="949" />
+    </state>
+    <state x="304" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.944@0.23.1680.944" timestamp="1583997154159" />
+    <state x="304" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.947@0.23.1680.947" timestamp="1584006217950" />
+    <state x="304" y="156" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.949@0.23.1680.949" timestamp="1584042468717" />
+    <state x="653" y="211" key="#com.intellij.ide.util.MemberChooser" timestamp="1584043189320">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="653" y="211" key="#com.intellij.ide.util.MemberChooser/0.23.1680.947@0.23.1680.947" timestamp="1584043189320" />
+    <state x="653" y="211" key="#com.intellij.ide.util.MemberChooser/0.23.1680.949@0.23.1680.949" timestamp="1584042597388" />
+    <state x="577" y="285" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583997077524">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="577" y="285" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1680.944@0.23.1680.944" timestamp="1583997077524" />
+    <state x="136" y="427" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584008666575">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="136" y="427" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.944@0.23.1680.944" timestamp="1584008666575" />
+    <state x="533" y="361" width="614" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584008930188">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="533" y="361" width="614" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.944@0.23.1680.944" timestamp="1584008930188" />
+    <state x="533" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1584008668137">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="533" y="382" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.944@0.23.1680.944" timestamp="1584008668137" />
+    <state x="723" y="188" width="788" height="664" key="#xdebugger.evaluate" timestamp="1584008243442">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="723" y="188" width="788" height="664" key="#xdebugger.evaluate/0.23.1680.944@0.23.1680.944" timestamp="1584008243442" />
+    <state width="517" height="466" key="DebuggerActiveHint" timestamp="1584008015424">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="517" height="466" key="DebuggerActiveHint/0.23.1680.944@0.23.1680.944" timestamp="1584008015424" />
+    <state width="1015" height="345" key="GridCell.Tab.0.bottom" timestamp="1584050389595">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.0.bottom/0.23.1680.944@0.23.1680.944" timestamp="1584009427533" />
+    <state width="1015" height="345" key="GridCell.Tab.0.bottom/0.23.1680.947@0.23.1680.947" timestamp="1584050389595" />
+    <state width="1015" height="345" key="GridCell.Tab.0.center" timestamp="1584050389595">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.0.center/0.23.1680.944@0.23.1680.944" timestamp="1584009427532" />
+    <state width="1015" height="345" key="GridCell.Tab.0.center/0.23.1680.947@0.23.1680.947" timestamp="1584050389595" />
+    <state width="1015" height="345" key="GridCell.Tab.0.left" timestamp="1584050389594">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.0.left/0.23.1680.944@0.23.1680.944" timestamp="1584009427531" />
+    <state width="1015" height="345" key="GridCell.Tab.0.left/0.23.1680.947@0.23.1680.947" timestamp="1584050389594" />
+    <state width="1015" height="345" key="GridCell.Tab.0.right" timestamp="1584050389595">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.0.right/0.23.1680.944@0.23.1680.944" timestamp="1584009427532" />
+    <state width="1015" height="345" key="GridCell.Tab.0.right/0.23.1680.947@0.23.1680.947" timestamp="1584050389595" />
+    <state width="1015" height="345" key="GridCell.Tab.1.bottom" timestamp="1584050389596">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.1.bottom/0.23.1680.944@0.23.1680.944" timestamp="1584009427535" />
+    <state width="1015" height="345" key="GridCell.Tab.1.bottom/0.23.1680.947@0.23.1680.947" timestamp="1584050389596" />
+    <state width="1015" height="345" key="GridCell.Tab.1.center" timestamp="1584050389595">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.1.center/0.23.1680.944@0.23.1680.944" timestamp="1584009427534" />
+    <state width="1015" height="345" key="GridCell.Tab.1.center/0.23.1680.947@0.23.1680.947" timestamp="1584050389595" />
+    <state width="1015" height="345" key="GridCell.Tab.1.left" timestamp="1584050389595">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.1.left/0.23.1680.944@0.23.1680.944" timestamp="1584009427533" />
+    <state width="1015" height="345" key="GridCell.Tab.1.left/0.23.1680.947@0.23.1680.947" timestamp="1584050389595" />
+    <state width="1015" height="345" key="GridCell.Tab.1.right" timestamp="1584050389596">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state width="1638" height="343" key="GridCell.Tab.1.right/0.23.1680.944@0.23.1680.944" timestamp="1584009427534" />
+    <state width="1015" height="345" key="GridCell.Tab.1.right/0.23.1680.947@0.23.1680.947" timestamp="1584050389596" />
+    <state width="1638" height="311" key="GridCell.Tab.2.bottom" timestamp="1584009174337">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1638" height="311" key="GridCell.Tab.2.bottom/0.23.1680.944@0.23.1680.944" timestamp="1584009174337" />
+    <state width="1638" height="311" key="GridCell.Tab.2.center" timestamp="1584009174336">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1638" height="311" key="GridCell.Tab.2.center/0.23.1680.944@0.23.1680.944" timestamp="1584009174336" />
+    <state width="1638" height="311" key="GridCell.Tab.2.left" timestamp="1584009174336">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1638" height="311" key="GridCell.Tab.2.left/0.23.1680.944@0.23.1680.944" timestamp="1584009174336" />
+    <state width="1638" height="311" key="GridCell.Tab.2.right" timestamp="1584009174337">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state width="1638" height="311" key="GridCell.Tab.2.right/0.23.1680.944@0.23.1680.944" timestamp="1584009174337" />
+    <state x="487" y="212" key="RollbackChangesDialog" timestamp="1584002470667">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="487" y="212" key="RollbackChangesDialog/0.23.1680.947@0.23.1680.947" timestamp="1584002470667" />
+    <state x="328" y="76" key="SettingsEditor" timestamp="1584043410367">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="328" y="76" key="SettingsEditor/0.23.1680.944@0.23.1680.944" timestamp="1583826697220" />
+    <state x="328" y="76" key="SettingsEditor/0.23.1680.947@0.23.1680.947" timestamp="1584043410367" />
+    <state x="576" y="187" width="528" height="619" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584044344178">
+      <screen x="0" y="23" width="1680" height="947" />
+    </state>
+    <state x="576" y="187" width="528" height="619" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1680.947@0.23.1680.947" timestamp="1584044344178" />
+    <state x="517" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1583995976484">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="517" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.944@0.23.1680.944" timestamp="1583995976484" />
+    <state x="217" y="188" key="new project wizard" timestamp="1583996554697">
+      <screen x="0" y="23" width="1680" height="944" />
+    </state>
+    <state x="217" y="188" key="new project wizard/0.23.1680.944@0.23.1680.944" timestamp="1583996554697" />
+    <state x="217" y="192" key="new project wizard/0.23.1680.947@0.23.1680.947" timestamp="1583824975606" />
+  </component>
+</project>
