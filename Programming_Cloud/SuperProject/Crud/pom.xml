@@ -19,7 +19,7 @@
 
     <properties>
         <project-spring-boot-standard-crud.version>1.0.0</project-spring-boot-standard-crud.version>
-        <mysql-connector-java.version>8.0.19</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <lombok.version>1.18.12</lombok.version>
     </properties>
 
